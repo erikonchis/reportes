@@ -1,0 +1,351 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Reporte de actividades
+\end_layout
+
+\begin_layout Standard
+A lo largo de estas dos semanas que hemos iniciado con el trabajo en el
+ área de cómputo, se han realizado las siguientes actividades:
+\end_layout
+
+\begin_layout Section*
+Instalación del sistema operativo Ubuntu.
+\end_layout
+
+\begin_layout Standard
+Se creó un disco de arranque a través de la página web de Linux.
+ A partir de ahí, se instalóel sistema operativo y se ha trabajado en la
+ familiarización con él.
+ 
+\end_layout
+
+\begin_layout Section*
+Instalación de R y RStudio.
+\end_layout
+
+\begin_layout Standard
+Para las actividades a llevar a cabo, es necesario contar con el software
+ estadístico R y, para un manejo más amigable de éste, el entorno de desarrollo
+ RStudio.
+ Es por ello que se realizó su instalación desde fuentes, con lo cual se
+ logró un mejor entendimiento de algunas de las acciones que se pueden realizar
+ desde terminal.
+\end_layout
+
+\begin_layout Section*
+Acercamiento a GIT.
+\end_layout
+
+\begin_layout Standard
+Se conocieron los aspectos básicos de este software de control de versiones,
+ se realizó su instalación desde terminal y se creó una cuenta en github
+ para comenzar a usarlo.
+ Con esto se crearon los primeros repositorios, se hicieron los primeros
+ commits y requests.
+ A partir de ahí se comenzó a trabajar normalmente con GIT en los proyectos
+ posteriores.
+\end_layout
+
+\begin_layout Section*
+Acercamiento a Shiny.
+\end_layout
+
+\begin_layout Standard
+Una vez instalado R, descargamos la paquetería 
+\begin_inset Quotes eld
+\end_inset
+
+Shiny
+\begin_inset Quotes erd
+\end_inset
+
+, la cual nos permite crear aplicaciones web interactivas desde R.
+ Esto se puede hacer de manera muy sencilla y sin necesidad de gran cantidad
+ de líneas de código.
+\end_layout
+
+\begin_layout Standard
+Después de instalada y de un conocimiento general de su funcionamiento,
+ se realizó un código para una página web que grafica números generados
+ aleatoriamente (distintas distribuciones).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename AleatoriosC.png
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Código usado para crear página en Shiny
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename AleatoriosF
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Página sencilla en Shiny
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Acercamiento a Leaflet.
+\end_layout
+
+\begin_layout Standard
+Otra paquetería que se descargó fue 
+\begin_inset Quotes eld
+\end_inset
+
+Leaflet
+\begin_inset Quotes erd
+\end_inset
+
+, la cual permite un manejo interactivo de mapas.
+ Así, al combinar Shiny con Leaflet, se hizo un código con el objetivo de
+ crear una página web que mostrara un mapa del mundo y, en él, marcadores
+ en todas sus ciudades.
+ Debido a la gran cantidad de datos contenidos en la base ocupada, se decidió
+ integrar líneas de código para mostrar cierta cantidad (elegida por el
+ usuario) de ciudades de manera aleatoria.
+ De esta forma se logró una agradable fusión entre Shiny, Leaflet y las
+ herramientas básicas de R.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename CiudadesC.png
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Código usado para generar programa con Leaflet
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename CiudadesF.png
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Página web que coloca marcadores en ciudades aletorias
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Uso de Shapefiles.
+\end_layout
+
+\begin_layout Standard
+Para poder sacar mayor provecho a las paqueterías antes mencionadas, se
+ investigó y comprendió el funcionamiento de los Shapefiles.
+ Al ser formatos vectoriales donde se guarda, entre otros atributos, una
+ localización geográfica, se hizo una implementación con Leaflet donde se
+ coloreaban en distintas tonalidades de rojo cada uno de los estados de
+ la república mexicana.
+\end_layout
+
+\begin_layout Standard
+Para poder lograr esto, se obtuvieron dichos archivos con la información
+ de los estados de México a través de la página de la CONABIO.
+ A partir de esto, se obtuvo el siguiente resultado.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ShapeEdosC.png
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Código para proyecto con Shapefiles
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ShapeEdosF.png
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Imagen resultante del proyecto con Shapefiles
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
